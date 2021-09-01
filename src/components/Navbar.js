@@ -9,17 +9,19 @@ function Navbar() {
         <div className="Navbar">
             <div className="container-fluid">
                 <div className="container Navbar__nest">
-                    <Link className="Navbar__item" to="/">
+                    <Link className="Navbar__item" to="/notice">
                         <span>Articles</span>
                     </Link >
-                    <Link className="Navbar__item" to="/news">
+                    <Link className="Navbar__item" to="/">
                         <span>Photos & Videos</span>
                     </Link>
-                    <img className="Navbar__img" src={nasaLogo}/>
-                    <Link className="Navbar__item" to="/news">
+                    <Link to='/'>
+                        <img className="Navbar__img" src={nasaLogo}/>    
+                    </Link>
+                    <Link className="Navbar__item" to="/">
                         <span>Our mission</span>
                     </Link>
-                    <Link className="Navbar__item" to="/news">
+                    <Link className="Navbar__item" to="/">
                         <span>Contact us</span>
                     </Link>
                 </div>

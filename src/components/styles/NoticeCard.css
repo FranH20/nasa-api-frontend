@@ -1,0 +1,22 @@
+.NoticeCard{
+    display: flex;
+    flex-direction: column;
+    min-width: 20rem;
+    max-width: 900px;
+    background: inherit;
+}
+.NoticeCard *{
+    padding: 0 0 0.5rem 0;
+    background: none;
+}
+.NoticeCard__image{
+    align-self: center;
+    width: 25rem;
+}
+.NoticeCard__info{
+    display: flex;
+    justify-content: space-between;
+}
+.NoticeCard__paragraph{
+    text-align: justify;
+}

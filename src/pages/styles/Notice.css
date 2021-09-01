@@ -1,0 +1,9 @@
+.Notice__nest{
+    width: 100%;
+    background: url('../../images/stars.svg');
+    background-repeat: repeat;
+    min-height: calc(100vh - 210px);
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
