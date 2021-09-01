@@ -1,8 +1,9 @@
 :root{
     --color-space: #0F151C;
 }
-body {
+* {
     background-color: var(--color-space);
+    color:white;
 }
 a.link-unstyled {
     color: inherit;

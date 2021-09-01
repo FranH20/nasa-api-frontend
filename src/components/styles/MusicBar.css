@@ -1,0 +1,16 @@
+.MusicBar{
+    background-color: inherit;
+}
+.MusicBar__nest{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+.MusicBar__music>img{
+    width: 1rem;
+}
+.MusicBar__nest>span{
+    padding-right: 2rem;
+    font-size: 1rem;
+    color: white;
+}

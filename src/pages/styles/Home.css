@@ -1,0 +1,30 @@
+.Home{
+    width: 100%;
+    background: url('../../images/stars.svg');
+    background-repeat: repeat;
+    min-height: calc(100vh - 210px);
+    display: flex;
+    justify-content: center;
+}
+.Home__image{
+    background: none;
+    max-width: 450px;
+}
+.Home__letters *{
+    background: none;
+}
+.Home__letters{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: none;
+    position: absolute;
+    bottom: 10rem;
+}
+.Home__letters>h1{ 
+    font-size: 11rem;
+}
+.Home__letters>span{ 
+    align-self: flex-end;
+    font-size: 2rem;
+}

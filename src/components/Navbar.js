@@ -10,17 +10,17 @@ function Navbar() {
             <div className="container-fluid">
                 <div className="container Navbar__nest">
                     <Link className="Navbar__item" to="/">
-                        <span>Home</span>
+                        <span>Articles</span>
                     </Link >
                     <Link className="Navbar__item" to="/news">
-                        <span>Item1</span>
+                        <span>Photos & Videos</span>
                     </Link>
-                    <img src={nasaLogo}/>
+                    <img className="Navbar__img" src={nasaLogo}/>
                     <Link className="Navbar__item" to="/news">
-                        <span>Item2</span>
+                        <span>Our mission</span>
                     </Link>
                     <Link className="Navbar__item" to="/news">
-                        <span>Item3</span>
+                        <span>Contact us</span>
                     </Link>
                 </div>
             </div>

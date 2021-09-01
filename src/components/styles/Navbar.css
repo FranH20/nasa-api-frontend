@@ -1,12 +1,16 @@
 .Navbar{
     background-color: var(--color-space);
     text-decoration: none;
+    padding-bottom: 1rem;
 }
 .Navbar__nest{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+.Navbar__img{
+    width: 10rem;
 }
 .Navbar__item{
     color: #fff;
