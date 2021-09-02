@@ -3,7 +3,7 @@
     flex-direction: column;
     min-width: 20rem;
     max-width: 900px;
-    background: inherit;
+    background: none;
 }
 .NoticeCard *{
     padding: 0 0 0.5rem 0;

@@ -26,9 +26,9 @@ function Notice() {
         <div className="Notice">
             <div className="Notice__nest">
                 <NoticeCard 
-                key={Math.random} 
-                title={notice.title} portal={notice.hdurl} date={notice.date} 
-                author={notice.copyright} description={notice.explanation}/>
+                    key={Math.random} 
+                    title={notice.title} portal={notice.hdurl} date={notice.date} 
+                    author={notice.copyright} description={notice.explanation}/>
             </div>
         </div>
     )

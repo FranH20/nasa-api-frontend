@@ -12,7 +12,7 @@ function Navbar() {
                     <Link className="Navbar__item" to="/notice">
                         <span>Articles</span>
                     </Link >
-                    <Link className="Navbar__item" to="/">
+                    <Link className="Navbar__item" to="/photos">
                         <span>Photos & Videos</span>
                     </Link>
                     <Link to='/'>

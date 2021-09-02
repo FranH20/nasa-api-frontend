@@ -7,6 +7,7 @@ import {
 import Layout from './Layout';
 import Home from '../pages/Home';
 import Notice from '../pages/Notice';
+import Photos from '../pages/Photos';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/notice" component={Notice}/>
+          <Route exact path="/photos" component={Photos} />
         </Switch>
       </Layout>
     </Router>
